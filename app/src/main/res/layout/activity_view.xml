@@ -142,24 +142,9 @@
                 android:textSize="18dp" />
         </LinearLayout>
 
-
-        <com.ICT.NAVJOT.CircularImageView
-            android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/default_user"
-            android:scaleType="fitCenter"
-            app:border_width=".01dp"
-            app:shadow="true" />
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
@@ -179,6 +164,22 @@
                 android:text="Cancel" />
 
         </LinearLayout>
+
+        <com.ICT.NAVJOT.CircularImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_user"
+            android:scaleType="fitCenter"
+            app:border_width=".01dp"
+            app:shadow="true" />
+
+
+
 
     </LinearLayout>
 </LinearLayout>
